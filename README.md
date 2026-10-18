@@ -39,7 +39,7 @@ Schweregrade: **S1** formal · **S2** substanziell · **S3** verändert eine Aus
 Voraussetzung: Python 3.11 oder neuer und ein API-Schlüssel für die Claude-API.
 
 ```bash
-git clone <repo-url> research-cop
+git clone https://github.com/harubert/research-cop.git
 cd research-cop
 python -m venv .venv
 .venv/Scripts/activate        # Windows; macOS/Linux: source .venv/bin/activate
@@ -124,3 +124,7 @@ Die Tests laufen ohne API-Schlüssel; die Pipeline wird mit einem simulierten Mo
 ## English summary
 
 Research Cop runs a structured, evidence-backed error analysis of scientific texts with Claude: a fixed rubric (formal, numbers, method, conclusions, sources, originality; three severity levels), recomputation in a code sandbox, an optional blind second review with measured agreement, independent verification of every substantial finding, a deterministic DOI/Crossref check of the reference list, and an interactive HTML dashboard with evidence crops cut from the PDF. Put files into `input/`, run `researchcop run --open`. Try the dashboard without an API key: `researchcop demo --open`.
+
+## Lizenz
+
+MIT, siehe [LICENSE](LICENSE).

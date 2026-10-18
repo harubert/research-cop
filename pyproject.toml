@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Structured, evidence-backed error analysis of scientific articles with Claude"
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
 dependencies = [
     "anthropic>=1.15",
     "pypdfium2>=5.0",
