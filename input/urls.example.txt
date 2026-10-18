@@ -1,0 +1,4 @@
+# One URL per line. PDFs and web pages are downloaded and checked like local files.
+# Copy this file to urls.txt.
+# https://example.org/journal/article.pdf
+# https://example.org/blog/research-summary.html

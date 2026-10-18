@@ -1,0 +1,18 @@
+# environments
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# your material and results never go into the repository
+input/*
+!input/README.md
+!input/urls.example.txt
+!input/manifest.example.csv
+output/
+
+# local configuration (may contain paths or keys)
+config.toml
+.env
+output-demo/

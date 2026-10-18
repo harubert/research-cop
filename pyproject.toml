@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "researchcop"
+version = "0.1.0"
+description = "Structured, evidence-backed error analysis of scientific articles with Claude"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=1.15",
+    "pypdfium2>=5.0",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+researchcop = "researchcop.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["researchcop*"]
+
+[tool.setuptools.package-data]
+researchcop = ["prompts/*.md", "templates/*.html"]

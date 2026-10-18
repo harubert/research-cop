@@ -1,0 +1,27 @@
+# Copy to config.toml and adjust. Every value has a default; this file is optional.
+
+[paths]
+input = "input"            # PDFs, HTML/TXT/MD files, urls.txt, optional manifest.csv
+output = "output"          # cache, results, evidence images, report
+
+[models]
+review = "claude-opus-5-5"     # first and second (blind) review
+verify = "claude-opus-5-5"     # re-check of substantial findings against the source
+references = "claude-sonnet-5-5"  # extraction of the reference list (cheaper model is enough)
+effort = "high"                # low | medium | high | xhigh | max
+
+[review]
+language = "de"            # language of the findings (quotes and anchors stay in the original language)
+second_review = false      # blind second review of every text (doubles the cost)
+verify_min_severity = 2    # findings with this severity or higher are re-checked
+code_execution = true      # let the reviewer recompute numbers in a sandbox
+web_search = false         # web search for cited sources (off: sources are checked via doi.org/Crossref; web search and code execution together can confuse the model)
+max_pdf_pages = 100        # longer PDFs are sent as text only
+
+[sources]
+check_dois = true          # resolve every DOI at doi.org and compare titles
+crossref_search = true     # search references without DOI in Crossref
+contact_email = ""         # optional, sent to Crossref as polite-pool contact; leave empty to send none
+
+[run]
+workers = 4                # texts processed in parallel
