@@ -1,5 +1,7 @@
 # Research Cop
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24218593.svg)](https://doi.org/10.5281/zenodo.24218593)
+
 **Strukturierte, belegte Fehleranalyse wissenschaftlicher Texte mit Claude.**
 
 Research Cop prüft Artikel, Berichte und Abschlussarbeiten nach einem festen Raster auf formale Fehler, Rechenfehler, methodische Mängel, überzogene Schlüsse und fragwürdige Quellen. Jeder Befund hat ein wörtliches Zitat, eine Fundstelle, einen Nachweis und, bei Zahlen, den Rechenweg. Am Ende steht ein interaktives HTML-Dashboard mit Diagrammen und automatisch ausgeschnittenen Belegstellen aus dem PDF.
