@@ -1,0 +1,22 @@
+{
+  "title": "Research Cop: evidence-backed error analysis of scientific articles with Claude",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Schroffenegger, Thomas",
+      "affiliation": "Pädagogische Hochschule Vorarlberg",
+      "orcid": "0000-0002-3224-2384"
+    }
+  ],
+  "description": "Evidence-backed error analysis of scientific articles with Claude: rubric-based review, independent verification, DOI/Crossref source check, interactive dashboard.",
+  "keywords": [
+    "research integrity",
+    "error analysis",
+    "scientific writing",
+    "large language models",
+    "Claude Code"
+  ],
+  "version": "1.0.0"
+}

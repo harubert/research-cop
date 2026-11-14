@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Research Cop: evidence-backed error analysis of scientific articles with Claude"
+authors:
+  - family-names: Schroffenegger
+    given-names: Thomas
+    affiliation: "Pädagogische Hochschule Vorarlberg"
+    orcid: "https://orcid.org/0000-0002-3224-2384"
+version: "1.0.0"
+date-released: "2026-11-14"
+license: MIT
+repository-code: "https://github.com/harubert/research-cop"
+abstract: >-
+  Evidence-backed error analysis of scientific articles with Claude: rubric-based review, independent verification, DOI/Crossref source check, interactive dashboard.
+keywords:
+  - research integrity
+  - error analysis
+  - scientific writing
+  - large language models
+  - Claude Code
